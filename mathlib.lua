@@ -33,8 +33,8 @@ function math.lerp( f, t, dt )
 	return ( f + ( t - f ) * dt )
 end
 
-function math.nearestmultiple( n, multiple )
-	return math.round( n / multiple ) * multiple
+function math.nearestmult( n, mult )
+	return math.round( n / mult ) * mult
 end
 
 function math.nearestpow2( n )
@@ -43,7 +43,7 @@ end
 
 math.phi = ( 1 + math.sqrt( 5 ) ) / 2
 
-function math.pointinrectangle( px, py, x, y, width, height )
+function math.pointinrect( px, py, x, y, width, height )
 	return px >= x and
 	       py >= y and
 	       px < x + width and
