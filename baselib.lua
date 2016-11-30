@@ -21,10 +21,6 @@ end
 if ( not rawtype ) then
 	rawtype = type
 
-	local getmetatable = getmetatable
-	local rawget       = rawget
-	local rawtype      = rawtype
-
 	function type( object )
 		local mt = getmetatable( object )
 		if ( mt ~= nil and rawget( mt, "__type" ) ~= nil ) then
