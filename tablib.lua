@@ -177,6 +177,14 @@ function table.irandom( t )
 	return t[ math.random( #t ) ]
 end
 
+function table.removevalue( t, v )
+	for i, w in ipairs( t ) do
+		if ( w == v ) then
+			table.remove( t, i )
+		end
+	end
+end
+
 function table.unique( t )
 	local copy = {}
 	for _, v in ipairs( t ) do
