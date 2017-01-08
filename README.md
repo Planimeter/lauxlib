@@ -2,7 +2,6 @@
 Lua 5.1.5 Auxiliary Library
 
 ## License
-
 The MIT License
 
 Copyright (c) 2017 Planimeter. http://planimeter.org
