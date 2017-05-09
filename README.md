@@ -1,5 +1,5 @@
 # lauxlib
-Lua 5.1.5 Auxiliary Library
+Lua 5.1.5 Auxiliary functions for building Lua libraries
 
 ## License
 The MIT License
